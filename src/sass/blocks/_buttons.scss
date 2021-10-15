@@ -10,6 +10,12 @@
     line-height: 19px;
     text-transform: uppercase;
     text-align: center;
+    &:hover {
+        background-color: #FFFFFF;
+        color: $main-color;
+        border: 2px solid $main-color;
+        font-weight: 700;
+    }
     &_main {
         width: 303px;
         height: 54px;

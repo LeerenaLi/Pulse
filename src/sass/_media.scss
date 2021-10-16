@@ -218,6 +218,25 @@
             }
         }
     }
+    .modal {
+        width: 280px;
+        padding: 25px 30px 30px 30px;
+        &__subtitle {
+            font-size: 13px;
+        }
+        &__descr {
+            font-size: 10px;
+        }
+        &__close {
+            top: 5px;
+            right: 5px;
+            font-size: 35px;
+        }
+    }
+    .feed-form_mt25 {
+        max-width: 200px;
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 414px) {

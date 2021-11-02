@@ -36,7 +36,7 @@
     }
     &__icon {
         &_animated {
-            animation: heartbeat 1.5s ease infinite;
+            animation: heartbeat 1.5s ease 8;
           /*   animation-name: heartbeat;
             animation-duration: 1.5s;
             animation-timing-function: ease;
